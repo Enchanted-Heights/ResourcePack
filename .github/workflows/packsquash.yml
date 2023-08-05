@@ -2,8 +2,7 @@ name: Optimize resource pack
 on: [push, workflow_dispatch]
 jobs:
   packsquash:
-    permissions:
-      packages: write
+    permissions: write-all
     name: Optimize resource pack
     runs-on: ubuntu-latest
     steps:

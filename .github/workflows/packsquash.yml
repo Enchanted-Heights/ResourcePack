@@ -1,5 +1,5 @@
 name: Optimize resource pack
-on: [push]
+on: [push, workflow_dispatch]
 jobs:
   packsquash:
     permissions:

@@ -2,6 +2,8 @@ name: Optimize resource pack
 on: [push]
 jobs:
   packsquash:
+    permissions:
+      packages: write
     name: Optimize resource pack
     runs-on: ubuntu-latest
     steps:

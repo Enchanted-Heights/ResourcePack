@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "block/tophat/carved_pumpkin",
-		"1": "block/tophat/carved_pumpkin_top",
-		"particle": "block/tophat/carved_pumpkin"
+		"1": "item/custom/tophat/hat1",
+		"2": "item/custom/tophat/hat2",
+		"particle": "item/custom/tophat/hat2"
 	},
 	"elements": [
 		{
@@ -23,12 +23,12 @@
 			"from": [2, 2, 2],
 			"to": [11, 12, 11],
 			"faces": {
-				"north": {"uv": [0, 0, 4.5, 4.5], "texture": "#0"},
-				"east": {"uv": [0, 4.5, 4.5, 9], "texture": "#0"},
-				"south": {"uv": [4.5, 0, 9, 4.5], "texture": "#0"},
-				"west": {"uv": [4.5, 4.5, 9, 9], "texture": "#0"},
-				"up": {"uv": [4.5, 13.5, 0, 9], "texture": "#0"},
-				"down": {"uv": [13.5, 0, 9, 4.5], "texture": "#0"}
+				"north": {"uv": [0, 0, 4.5, 4.5], "texture": "#2"},
+				"east": {"uv": [0, 4.5, 4.5, 9], "texture": "#2"},
+				"south": {"uv": [4.5, 0, 9, 4.5], "texture": "#2"},
+				"west": {"uv": [4.5, 4.5, 9, 9], "texture": "#2"},
+				"up": {"uv": [4.5, 13.5, 0, 9], "texture": "#2"},
+				"down": {"uv": [13.5, 0, 9, 4.5], "texture": "#2"}
 			}
 		}
 	],
@@ -36,6 +36,11 @@
 		"thirdperson_righthand": {
 			"rotation": [72, 0, 0],
 			"translation": [-4.5, 1.75, 25.25]
+		},
+		"gui": {
+			"rotation": [21.5, -24, 0],
+			"translation": [0.75, 1.25, 0],
+			"scale": [0.8, 0.8, 0.8]
 		}
 	}
 }

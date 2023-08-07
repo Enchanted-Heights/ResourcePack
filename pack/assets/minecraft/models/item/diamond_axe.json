@@ -1,14 +1,13 @@
 {
     "parent": "minecraft:item/generated",
         "textures": {
-          "layer0": "minecraft:item/diamond_axe"
+            "layer0": "minecraft:item/diamond_axe"
         },
 	
-	"overrides":[
+    "overrides": [
+    
+        {"predicate": {"custom_model_data": 1}, "model": "custom/decoration/cannon"},
+        {"predicate": {"custom_model_data": 2}, "model": "custom/decoration/canoe"}
 	
-	{"predicate": {"custom_model_data":1}, "model": "custom/decoration/cannon"},
-	{"predicate": {"custom_model_data":2}, "model": "custom/decoration/canoe"}
-	
-		
-]
+    ]
 }

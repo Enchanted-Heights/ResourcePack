@@ -6,71 +6,78 @@
             "type": "bitmap",
             "file": "custom/ranks/director.png",
             "ascent": 8,
-            "height": 8,
+            "height": 9,
             "chars": ["\uE001"]
         },
         {
             "type": "bitmap",
             "file": "custom/ranks/executive.png",
             "ascent": 8,
-            "height": 8,
+            "height": 9,
             "chars": ["\uE002"]
         },
         {
             "type": "bitmap",
             "file": "custom/ranks/manager.png",
             "ascent": 8,
-            "height": 8,
+            "height": 9,
             "chars": ["\uE003"]
         },
         {
             "type": "bitmap",
             "file": "custom/ranks/developer.png",
             "ascent": 8,
-            "height": 8,
+            "height": 9,
             "chars": ["\uE004"]
         },
         {
             "type": "bitmap",
             "file": "custom/ranks/architect.png",
             "ascent": 8,
-            "height": 8,
+            "height": 9,
             "chars": ["\uE005"]
         },
         {
             "type": "bitmap",
             "file": "custom/ranks/designer.png",
             "ascent": 8,
-            "height": 8,
+            "height": 9,
             "chars": ["\uE006"]
         },
         {
             "type": "bitmap",
             "file": "custom/ranks/technician.png",
             "ascent": 8,
-            "height": 8,
+            "height": 9,
             "chars": ["\uE007"]
         },
         {
             "type": "bitmap",
             "file": "custom/ranks/guide.png",
             "ascent": 8,
-            "height": 8,
+            "height": 9,
             "chars": ["\uE008"]
         },
         {
             "type": "bitmap",
             "file": "custom/ranks/trainee.png",
             "ascent": 8,
-            "height": 8,
+            "height": 9,
             "chars": ["\uE009"]
         },
         {
             "type": "bitmap",
             "file": "custom/ranks/visitor.png",
             "ascent": 8,
-            "height": 8,
+            "height": 9,
             "chars": ["\uE010"]
+        },
+        {
+            "type": "bitmap",
+            "file": "custom/ranks/retired.png",
+            "ascent": 8,
+            "height": 9,
+            "chars": ["\uE011"]
         }
     ]
 }

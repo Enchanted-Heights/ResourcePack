@@ -1,0 +1,45 @@
+{
+	"credit": "dronko fire blaster",
+	"textures": {
+		"particle": "block/bamboo_stalk",
+		"all": "block/bamboo_stalk"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 7],
+			"to": [9, 16, 9],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 16], "texture": "#all"},
+				"east": {"uv": [0, 0, 2, 16], "texture": "#all"},
+				"south": {"uv": [0, 0, 2, 16], "texture": "#all"},
+				"west": {"uv": [0, 0, 2, 16], "texture": "#all"},
+				"up": {"uv": [13, 0, 15, 2], "texture": "#all", "cullface": "up"},
+				"down": {"uv": [13, 4, 15, 6], "texture": "#all", "cullface": "down"}
+			}
+		},
+		{
+			"from": [6.75, 10.4, 6.75],
+			"to": [9.2, 10.8, 9.2],
+			"faces": {
+				"north": {"uv": [0, 5, 2, 6], "texture": "#all"},
+				"east": {"uv": [0, 5, 2, 6], "texture": "#all"},
+				"south": {"uv": [0, 5, 2, 6], "texture": "#all"},
+				"west": {"uv": [0, 5, 2, 6], "texture": "#all"},
+				"up": {"uv": [13, 0, 15, 2], "texture": "#all", "cullface": "up"},
+				"down": {"uv": [13, 4, 15, 6], "texture": "#all", "cullface": "down"}
+			}
+		},
+		{
+			"from": [6.8, 2.4, 6.75],
+			"to": [9.3, 2.8, 9.25],
+			"faces": {
+				"north": {"uv": [0, 5, 2, 6], "texture": "#all"},
+				"east": {"uv": [0, 5, 2, 6], "texture": "#all"},
+				"south": {"uv": [0, 5, 2, 6], "texture": "#all"},
+				"west": {"uv": [0, 5, 2, 6], "texture": "#all"},
+				"up": {"uv": [13, 0, 15, 2], "texture": "#all", "cullface": "up"},
+				"down": {"uv": [13, 4, 15, 6], "texture": "#all", "cullface": "down"}
+			}
+		}
+	]
+}

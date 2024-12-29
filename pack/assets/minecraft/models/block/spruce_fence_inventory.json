@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wood_fence_inventory",
+  "textures": {
+    "texture": "block/wood/spruce_wood"
+  }
+}

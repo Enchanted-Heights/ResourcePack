@@ -1,7 +1,7 @@
 {
-  "entity.generic.splash": {
+  "entity.item.splash": {
     "sounds": [
-      "entity/generic/splash"
+      "entity/item/splash"
     ]
   }
 }

@@ -71,6 +71,19 @@
             "ascent": 8,
             "height": 9,
             "chars": ["\uE010"]
+        },
+        {
+            "type": "bitmap",
+            "file": "font/ascii-cropped.png",
+            "ascent": 7,
+            "chars": [
+                "\uE500\uE501\uE502\uE503\uE504\uE505\uE506\uE507\uE508\uE509\uE50A\uE50B\uE50C\uE50D\uE50E\uE50F",
+                "\ue510\ue511\ue512\ue513\ue514\ue515\ue516\ue517\ue518\ue519\ue51A\ue51B\ue51C\ue51D\ue51E\ue51F",
+                "\ue520\ue521\ue522\ue523\ue524\ue525\ue526\ue527\ue528\ue529\ue52A\ue52B\ue52C\ue52D\ue52E\ue52F",
+                "\ue530\ue531\ue532\ue533\ue534\ue535\ue536\ue537\ue538\ue539\ue53A\ue53B\ue53C\ue53D\ue53E\ue53F",
+                "\ue540\ue541\ue542\ue543\ue544\ue545\ue546\ue547\ue548\ue549\ue54A\ue54B\ue54C\ue54D\ue54E\ue54F",
+                "\ue550\ue551\ue552\ue553\ue554\ue555\ue556\ue557\ue558\ue559\ue55A\ue55B\ue55C\ue55D\ue55E\ue55F"
+            ]
         }
     ]
 }

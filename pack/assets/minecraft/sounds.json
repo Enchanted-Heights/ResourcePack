@@ -1,4 +1,9 @@
 {
+  "entity.player.hurt": {
+    "sounds": [
+      "entity/player/hurt"
+    ]
+  },
   "entity.player.death": {
     "sounds": [
       "entity/player/death"

@@ -1,12 +1,7 @@
 {
-  "death_sound": {
-    "category": "player",
-    "subtitle": "subtitles.death_sound",
+  "entity.player.death": {
     "sounds": [
-      {
-        "name": "death_sound:death",
-        "stream": false
-      }
+      "entity/player/death"
     ]
   }
 }

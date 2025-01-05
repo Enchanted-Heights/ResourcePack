@@ -162,6 +162,13 @@
             "chars": ["\uE5F6"],
             "_comment": "Profile picture."
         },
-        {"type": "bitmap", "file": "custom/gui/pixel.png","ascent": -2000,"height": 5,"chars": ["\uE5FD"], "_comment": "Gap between profile pic and text."}
+        {"type": "bitmap", "file": "custom/gui/pixel.png","ascent": -2000,"height": 5,"chars": ["\uE5FD"], "_comment": "Gap between profile pic and text."},
+        {
+            "type": "bitmap",
+            "file": "custom/logo-full.png",
+            "ascent": 10,
+            "height": 57,
+            "chars": ["\uE011"]
+        }
     ]
 }

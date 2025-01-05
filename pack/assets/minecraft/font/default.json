@@ -72,10 +72,20 @@
             "height": 9,
             "chars": ["\uE010"]
         },
+
+
+        {
+            "type": "bitmap",
+            "file": "font/opacity-85.png",
+            "ascent": 128,
+            "height": 256,
+            "chars": ["\uE400"]
+        },
         {
             "type": "bitmap",
             "file": "font/ascii-cropped.png",
-            "ascent": 7,
+            "ascent": 3,
+            "height": 8,
             "chars": [
                 "\uE500\uE501\uE502\uE503\uE504\uE505\uE506\uE507\uE508\uE509\uE50A\uE50B\uE50C\uE50D\uE50E\uE50F",
                 "\ue510\ue511\ue512\ue513\ue514\ue515\ue516\ue517\ue518\ue519\ue51A\ue51B\ue51C\ue51D\ue51E\ue51F",
@@ -84,6 +94,44 @@
                 "\ue540\ue541\ue542\ue543\ue544\ue545\ue546\ue547\ue548\ue549\ue54A\ue54B\ue54C\ue54D\ue54E\ue54F",
                 "\ue550\ue551\ue552\ue553\ue554\ue555\ue556\ue557\ue558\ue559\ue55A\ue55B\ue55C\ue55D\ue55E\ue55F"
             ]
-        }
+        },
+        {
+            "type": "bitmap",
+            "file": "font/ascii-cropped.png",
+            "ascent": -10,
+            "height": 8,
+            "chars": [
+                "\uE600\uE601\uE602\uE603\uE604\uE605\uE606\uE607\uE608\uE609\uE60A\uE60B\uE60C\uE60D\uE60E\uE60F",
+                "\ue610\ue611\ue612\ue613\ue614\ue615\ue616\ue617\ue618\ue619\ue61A\ue61B\ue61C\ue61D\ue61E\ue61F",
+                "\ue620\ue621\ue622\ue623\ue624\ue625\ue626\ue627\ue628\ue629\ue62A\ue62B\ue62C\ue62D\ue62E\ue62F",
+                "\ue630\ue631\ue632\ue633\ue634\ue635\ue636\ue637\ue638\ue639\ue63A\ue63B\ue63C\ue63D\ue63E\ue63F",
+                "\ue640\ue641\ue642\ue643\ue644\ue645\ue646\ue647\ue648\ue649\ue64A\ue64B\ue64C\ue64D\ue64E\ue64F",
+                "\ue650\ue651\ue652\ue653\ue654\ue655\ue656\ue657\ue658\ue659\ue65A\ue65B\ue65C\ue65D\ue65E\ue65F"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "font/ascii-cropped.png",
+            "ascent": -23,
+            "height": 8,
+            "chars": [
+                "\uE700\uE701\uE702\uE703\uE704\uE705\uE706\uE707\uE708\uE709\uE70A\uE70B\uE70C\uE70D\uE70E\uE70F",
+                "\ue710\ue711\ue712\ue713\ue714\ue715\ue716\ue717\ue718\ue719\ue71A\ue71B\ue71C\ue71D\ue71E\ue71F",
+                "\ue720\ue721\ue722\ue723\ue724\ue725\ue726\ue727\ue728\ue729\ue72A\ue72B\ue72C\ue72D\ue72E\ue72F",
+                "\ue730\ue731\ue732\ue733\ue734\ue735\ue736\ue737\ue738\ue739\ue73A\ue73B\ue73C\ue73D\ue73E\ue73F",
+                "\ue740\ue741\ue742\ue743\ue744\ue745\ue746\ue747\ue748\ue749\ue74A\ue74B\ue74C\ue74D\ue74E\ue74F",
+                "\ue750\ue751\ue752\ue753\ue754\ue755\ue756\ue757\ue758\ue759\ue75A\ue75B\ue75C\ue75D\ue75E\ue75F"
+            ]
+        },
+        {"type": "bitmap", "file": "custom/gui/pixel.png","ascent": -2000,"height": -3,"chars": ["\uE5FC"]},
+        {"type": "bitmap", "file": "custom/gui/pixel.png","ascent": -2000,"height": 0,"chars": ["\uE5FE"]},
+        {
+            "type": "bitmap",
+            "file": "font/pfp.png",
+            "ascent": 0,
+            "height": 50,
+            "chars": ["\uEF01"]
+        },
+        {"type": "bitmap", "file": "custom/gui/pixel.png","ascent": -2000,"height": -120,"chars": ["\uE5FD"]}
     ]
 }

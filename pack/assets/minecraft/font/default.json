@@ -76,15 +76,8 @@
 
         {
             "type": "bitmap",
-            "file": "font/opacity-85.png",
-            "ascent": 128,
-            "height": 256,
-            "chars": ["\uE400"]
-        },
-        {
-            "type": "bitmap",
             "file": "font/ascii-cropped.png",
-            "ascent": 3,
+            "ascent": 8,
             "height": 8,
             "chars": [
                 "\uE500\uE501\uE502\uE503\uE504\uE505\uE506\uE507\uE508\uE509\uE50A\uE50B\uE50C\uE50D\uE50E\uE50F",
@@ -98,7 +91,7 @@
         {
             "type": "bitmap",
             "file": "font/ascii-cropped.png",
-            "ascent": -10,
+            "ascent": -2,
             "height": 8,
             "chars": [
                 "\uE600\uE601\uE602\uE603\uE604\uE605\uE606\uE607\uE608\uE609\uE60A\uE60B\uE60C\uE60D\uE60E\uE60F",
@@ -112,7 +105,7 @@
         {
             "type": "bitmap",
             "file": "font/ascii-cropped.png",
-            "ascent": -23,
+            "ascent": -12,
             "height": 8,
             "chars": [
                 "\uE700\uE701\uE702\uE703\uE704\uE705\uE706\uE707\uE708\uE709\uE70A\uE70B\uE70C\uE70D\uE70E\uE70F",
@@ -123,15 +116,52 @@
                 "\ue750\ue751\ue752\ue753\ue754\ue755\ue756\ue757\ue758\ue759\ue75A\ue75B\ue75C\ue75D\ue75E\ue75F"
             ]
         },
-        {"type": "bitmap", "file": "custom/gui/pixel.png","ascent": -2000,"height": -3,"chars": ["\uE5FC"]},
-        {"type": "bitmap", "file": "custom/gui/pixel.png","ascent": -2000,"height": 0,"chars": ["\uE5FE"]},
         {
             "type": "bitmap",
-            "file": "font/pfp.png",
-            "ascent": 0,
-            "height": 50,
-            "chars": ["\uEF01"]
+            "file": "font/ascii-cropped.png",
+            "ascent": -22,
+            "height": 8,
+            "chars": [
+                "\uE800\uE801\uE802\uE803\uE804\uE805\uE806\uE807\uE808\uE809\uE80A\uE80B\uE80C\uE80D\uE80E\uE80F",
+                "\ue810\ue811\ue812\ue813\ue814\ue815\ue816\ue817\ue818\ue819\ue81A\ue81B\ue81C\ue81D\ue81E\ue81F",
+                "\ue820\ue821\ue822\ue823\ue824\ue825\ue826\ue827\ue828\ue829\ue82A\ue82B\ue82C\ue82D\ue82E\ue82F",
+                "\ue830\ue831\ue832\ue833\ue834\ue835\ue836\ue837\ue838\ue839\ue83A\ue83B\ue83C\ue83D\ue83E\ue83F",
+                "\ue840\ue841\ue842\ue843\ue844\ue845\ue846\ue847\ue848\ue849\ue84A\ue84B\ue84C\ue84D\ue84E\ue84F",
+                "\ue850\ue851\ue852\ue853\ue854\ue855\ue856\ue857\ue858\ue859\ue85A\ue85B\ue85C\ue85D\ue85E\ue85F"
+            ]
         },
-        {"type": "bitmap", "file": "custom/gui/pixel.png","ascent": -2000,"height": -120,"chars": ["\uE5FD"]}
+        {
+            "type": "bitmap",
+            "file": "font/ascii-cropped.png",
+            "ascent": -32,
+            "height": 8,
+            "chars": [
+                "\uE900\uE901\uE902\uE903\uE904\uE905\uE906\uE907\uE908\uE909\uE90A\uE90B\uE90C\uE90D\uE90E\uE90F",
+                "\ue910\ue911\ue912\ue913\ue914\ue915\ue916\ue917\ue918\ue919\ue91A\ue91B\ue91C\ue91D\ue91E\ue91F",
+                "\ue920\ue921\ue922\ue923\ue924\ue925\ue926\ue927\ue928\ue929\ue92A\ue92B\ue92C\ue92D\ue92E\ue92F",
+                "\ue930\ue931\ue932\ue933\ue934\ue935\ue936\ue937\ue938\ue939\ue93A\ue93B\ue93C\ue93D\ue93E\ue93F",
+                "\ue940\ue941\ue942\ue943\ue944\ue945\ue946\ue947\ue948\ue949\ue94A\ue94B\ue94C\ue94D\ue94E\ue94F",
+                "\ue950\ue951\ue952\ue953\ue954\ue955\ue956\ue957\ue958\ue959\ue95A\ue95B\ue95C\ue95D\ue95E\ue95F"
+            ]
+        },
+        {"type": "bitmap", "file": "custom/gui/pixel.png","ascent": -2000,"height": -3,"chars": ["\uE5FC"], "_comment": "-2px to move cursor back to left."},
+        {"type": "bitmap", "file": "custom/gui/pixel.png","ascent": -2000,"height": 0,"chars": ["\uE5FE"], "_comment": "+2px to add blank space to end of line, ensuring fills full width."},
+        {
+            "type": "bitmap",
+            "file": "font/pfp-1.png",
+            "ascent": 10,
+            "height": 50,
+            "chars": ["\uE5F5"],
+            "_comment": "Profile picture."
+        },
+        {
+            "type": "bitmap",
+            "file": "font/pfp-2.png",
+            "ascent": 10,
+            "height": 50,
+            "chars": ["\uE5F6"],
+            "_comment": "Profile picture."
+        },
+        {"type": "bitmap", "file": "custom/gui/pixel.png","ascent": -2000,"height": 5,"chars": ["\uE5FD"], "_comment": "Gap between profile pic and text."}
     ]
 }

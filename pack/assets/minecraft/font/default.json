@@ -169,6 +169,67 @@
             "ascent": 10,
             "height": 57,
             "chars": ["\uE011"]
-        }
+        },
+        {
+            "type": "bitmap",
+            "file": "custom/gui/bossbar/back-left.png",
+            "ascent": 1,
+            "height": 15,
+            "chars": ["\uE012"]
+        },
+        {
+            "type": "bitmap",
+            "file": "custom/gui/bossbar/back-middle.png",
+            "ascent": 1,
+            "height": 15,
+            "chars": ["\uE013"]
+        },
+        {
+            "type": "bitmap",
+            "file": "custom/gui/bossbar/back-right.png",
+            "ascent": 1,
+            "height": 15,
+            "chars": ["\uE014"]
+        },
+        {
+            "type": "bitmap",
+            "file": "custom/gui/bossbar/coins.png",
+            "ascent": 0,
+            "height": 14,
+            "chars": ["\uE015"]
+        },
+        {
+            "type": "bitmap",
+            "file": "custom/gui/bossbar/person.png",
+            "ascent": 0,
+            "height": 10,
+            "chars": ["\uE016"]
+        },
+        {
+            "type": "bitmap",
+            "file": "custom/gui/bossbar/hashtag.png",
+            "ascent": 0,
+            "height": 14,
+            "chars": ["\uE017"]
+        },
+        {
+            "type": "bitmap",
+            "file": "custom/gui/bossbar/sun.png",
+            "ascent": 0,
+            "height": 14,
+            "chars": ["\uE018"]
+        },
+        {
+            "type": "bitmap",
+            "file": "custom/gui/bossbar/tree.png",
+            "ascent": 0,
+            "height": 14,
+            "chars": ["\uE019"]
+        },
+        {"type": "bitmap", "file": "custom/gui/pixel.png","ascent": -2000,"height": -5,"chars": ["\uE100"], "_comment": "-3px negative space to cancel out sections"},
+        {"type": "bitmap", "file": "custom/gui/pixel.png","ascent": -2000,"height": -3,"chars": ["\uE101"], "_comment": "-2px negative gap to cancel out letter spacing for sections."},
+        {"type": "bitmap", "file": "custom/gui/pixel.png","ascent": -2000,"height": 0,"chars": ["\uE104"], "_comment": "+2px undo negative gap"},
+        {"type": "bitmap", "file": "custom/gui/pixel.png","ascent": -2000,"height": 3,"chars": ["\uE105"], "_comment": "+5px left padding"},
+        {"type": "bitmap", "file": "custom/gui/pixel.png","ascent": -2000,"height": 15,"chars": ["\uE106"], "_comment": "gap between cards"}
     ]
 }
